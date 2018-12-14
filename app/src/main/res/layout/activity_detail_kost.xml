@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailKostActivity">
+    <include layout="@layout/toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--Menampilkan gambar kost dari database-->
+        <ImageView
+            android:id="@+id/imgKost"
+            android:scaleType="centerCrop"
+            android:src="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" />
+        <!--Menampilkan harga kost dari database-->
+        <TextView
+            android:id="@+id/tvHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/harga"
+            android:padding="5dp"
+            android:background="@drawable/dark_orange_rounded"
+            android:textColor="@android:color/white"
+            android:textSize="14dp"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idScr">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--Menampilkan nama kost dari database-->
+            <TextView
+                android:id="@+id/tvNamaKost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/judul"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+            <!--Menampilkan Lokasi kost dari database-->
+            <RelativeLayout
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/marker"
+                    android:drawablePadding="5dp"
+                    android:id="@+id/gifLoc"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tvAlamat"
+                    android:drawablePadding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/alamat"
+                    android:textSize="14dp"
+                    />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!--Menampilkan Jenis Kost dari database-->
+                <TextView
+                    android:id="@+id/tvJenisKost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/orange_rounded"
+                    android:padding="5dp"
+                    android:text="Jenis Kost"
+                    android:textColor="@android:color/white"
+                    android:textSize="14dp" />
+
+                <!--Menampilkan sisa kamar dari database-->
+                <TextView
+                    android:id="@+id/tvSisaKamar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:background="@drawable/green_rounded"
+                    android:text="Sisa Kamar"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <TextView
+                android:padding="10dp"
+                android:text="Deskripsi"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/colorBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--Menampilkan isi deskripsi dari database-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/tvDesc"
+                android:text="Isi Deskripsi"
+                android:textSize="14dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtFasilitas"
+                android:text="Fasilitas"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/colorBlack"/>
+            <!--Menampilkan isi fasilitas dari database-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:id="@+id/tvFasilitas"
+                android:text="Isi Fasilitas"
+                android:textSize="14dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Tampilkan Peta"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:id="@+id/txtPeta"/>
+            <!--Menampilkan Maps-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/vMaps">
+
+            </FrameLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

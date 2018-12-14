@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1095935948429",
+    "firebase_url": "https://bobodimanaapp.firebaseio.com",
+    "project_id": "bobodimanaapp",
+    "storage_bucket": "bobodimanaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095935948429:android:3e5356b5b267848b",
+        "android_client_info": {
+          "package_name": "com.dimana.bobo.bobodimanaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095935948429-cckrvcllmm5m66g0nd9bknltodgqce2t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dimana.bobo.bobodimanaapp",
+            "certificate_hash": "8e445fde5eda2ad4186b74d4043c222d7cda62b4"
+          }
+        },
+        {
+          "client_id": "1095935948429-7c9dhqtemt0qji1urs9uj1scfj3fn0r3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdJPhMuMF6Stb-tJCdy5i3SVp5jNmbGwM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095935948429-7c9dhqtemt0qji1urs9uj1scfj3fn0r3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Bobo Dimana</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="login">MASUK</string>
+    <string name="login_google">Sign in with Google</string>
+    <string name="login_fb">Sign in with Facebook</string>
+    <string name="register">DAFTAR</string>
+    <string name="bobo_dimana">BOBO DIMANA</string>
+
+    <string name="facebook_app_id">543352239482418</string>
+    <string name="fb_login_protocol_scheme">fb543352239482418</string>
+
+    <string name="txt_register">Sudah punya akun?</string>
+    <string name="txt_login">Belum punya akun?</string>
+    <string name="txt_btn_register">Daftar</string>
+    <string name="txt_btn_login">Masuk</string>
+    <string name="title_profile">Profil</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_list">Tampilan List</string>
+    <string name="title_maps">Tampilan PETA</string>
+    <string name="title_home">Home</string>
+
+    <string name="signed_out">Sign Out</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="google_title_text">Google text</string>
+    <string name="harga">Rp. 150000/bulan</string>
+    <string name="judul">Nama Kost</string>
+    <string name="alamat">Lokasi</string>
+    <string name="api_key">AIzaSyAxwbxIMln8TZhduQMiPywJvtNidkRsx8Y</string>
+    <string name="title_detail">Detail Kost</string>
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
+    tools:context=".RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/childbed"
+            android:layout_width="match_parent"
+            android:layout_height="110dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorWhite"
+            android:text="@string/bobo_dimana"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal">-->
+            <!--<ImageView-->
+                <!--android:layout_width="32dp"-->
+                <!--android:layout_height="32dp"-->
+                <!--android:src="@drawable/ic_account_circle_white_32dp"/>-->
+            <!--&lt;!&ndash;Inputan nama user&ndash;&gt;-->
+            <!--<EditText-->
+                <!--android:id="@+id/inputFullName"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:backgroundTint="#FFFFFF"-->
+                <!--android:hint="Full Name"-->
+                <!--android:textSize="14dp"-->
+                <!--android:textColorHint="@color/colorWhite"-->
+                <!--android:textColor="@color/colorWhite"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal">-->
+            <!--<ImageView-->
+                <!--android:layout_width="32dp"-->
+                <!--android:layout_height="32dp"-->
+                <!--android:src="@drawable/ic_phone_iphone_white_32dp"/>-->
+            <!--<EditText-->
+                <!--android:id="@+id/inputPhoneNumber"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:backgroundTint="#FFFFFF"-->
+                <!--android:hint="Phone Number"-->
+                <!--android:textSize="14dp"-->
+                <!--android:inputType="number"-->
+                <!--android:textColorHint="@color/colorWhite"-->
+                <!--android:textColor="@color/colorWhite"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+        <!--</LinearLayout>-->
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_email_white_32dp"/>
+            <EditText
+                android:id="@+id/inputEmail"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#FFFFFF"
+                android:hint="@string/email"
+                android:textSize="14dp"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/colorWhite"
+                android:textColor="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_lock_white_32dp"/>
+            <EditText
+                android:id="@+id/inputPassword"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#FFFFFF"
+                android:hint="@string/password"
+                android:textSize="14dp"
+                android:inputType="textPassword"
+                android:textColorHint="@color/colorWhite"
+                android:textColor="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:text="@string/txt_register"/>
+            <TextView
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorWhite"
+                android:text="@string/txt_btn_login"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:background="@drawable/white_rounded"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:text="@string/register"/>
+
+    </LinearLayout>
+</LinearLayout>

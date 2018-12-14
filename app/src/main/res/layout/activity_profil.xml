@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilActivity">
+    <include layout="@layout/toolbar"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfil"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <!--Menampilkan nama user dari database-->
+    <TextView
+        android:id="@+id/txtUser"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--Menampilkan email user dari database-->
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
