@@ -12,7 +12,8 @@ Melalui aplikasi **BoboDimana** pencarian kostmu menjadi lebih cepat dan mudah k
 
 ## Menu dan Fungsi Dalam Aplikasi 
 Beberapa menu dan fungsi yang ada dalam aplikasi **BoboDimana** beserta menu dan fungsi yang aktif adalah sebagai berikut 
-- [x] Cari Iklan - [x] Profil 
+- [x] Cari Iklan 
+- [x] Profil 
 - [ ] Riwayat Pemesanan 
 - [ ] Tambah Iklan 
 - [x] Keluar 
