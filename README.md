@@ -37,5 +37,6 @@ Beberapa _Library_ yang digunakan pada aplikasi ini adalah:
 
 #### Project ini merupakan Project Tugas Akhir Mata Kuliah Pemrograman Platform Mobile 
 ###### Dikerjakan Oleh 
-- **Agung Surya Tamaka** 
 - **M. Iko Wiryadirja** 
+- **Agung Surya Tamaka** 
+
