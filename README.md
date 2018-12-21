@@ -26,13 +26,14 @@ Beberapa menu dan fungsi yang ada dalam aplikasi **BoboDimana** beserta menu dan
 
 ## Library  
 Beberapa _Library_ yang digunakan pada aplikasi ini adalah: 
+- AppCompat (Bottom Navigation, Drawer Navigation, Toolbar, CardView, etc)
 - ButterKnife 
 - Recycler View 
-- Firebase 
+- Firebase -> Auth (Email Custom, Google & Facebook)
 - Glide 
-- Retrofit 
+- Retrofit -> REST API -> DB MySQL
 - Circle Image View 
-- Google Maps 
+- Google Maps API
 - GIF Drawable 
 - Spots Dialog 
 
